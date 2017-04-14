@@ -12,6 +12,7 @@
 		B28B05041EA12C8D006C0CED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B28B05021EA12C8D006C0CED /* Main.storyboard */; };
 		B28B05061EA12C8D006C0CED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B28B05051EA12C8D006C0CED /* Assets.xcassets */; };
 		B28B05091EA12C8D006C0CED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B28B05071EA12C8D006C0CED /* LaunchScreen.storyboard */; };
+		B28B05111EA12C99006C0CED /* OptionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28B05101EA12C99006C0CED /* OptionButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		B28B05051EA12C8D006C0CED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B28B05081EA12C8D006C0CED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B28B050A1EA12C8D006C0CED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B28B05101EA12C99006C0CED /* OptionButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		B28B04FD1EA12C8D006C0CED /* OptionButton */ = {
 			isa = PBXGroup;
 			children = (
+				B28B05101EA12C99006C0CED /* OptionButton.swift */,
 				B28B04FE1EA12C8D006C0CED /* AppDelegate.swift */,
 				B28B05001EA12C8D006C0CED /* ViewController.swift */,
 				B28B05021EA12C8D006C0CED /* Main.storyboard */,
@@ -139,6 +142,7 @@
 			files = (
 				B28B05011EA12C8D006C0CED /* ViewController.swift in Sources */,
 				B28B04FF1EA12C8D006C0CED /* AppDelegate.swift in Sources */,
+				B28B05111EA12C99006C0CED /* OptionButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +269,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 77Y3N48SNF;
 				INFOPLIST_FILE = OptionButton/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cemolcay.OptionButton;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -278,6 +283,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 77Y3N48SNF;
 				INFOPLIST_FILE = OptionButton/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cemolcay.OptionButton;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -304,6 +310,7 @@
 				B28B050F1EA12C8D006C0CED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
