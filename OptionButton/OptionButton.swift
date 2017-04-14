@@ -15,16 +15,16 @@ public class OptionButton: UIButton {
   public private(set) var nameLabel = UILabel()
   public private(set) var optionLabel = UILabel()
 
-  @IBInspectable public var titleText: String = ""
-  @IBInspectable public var optionText: String = ""
-  @IBInspectable public var titleColor: UIColor = .black
-  @IBInspectable public var optionColor: UIColor = .black
-  @IBInspectable public var titleFont: UIFont = .systemFont(ofSize: 13)
-  @IBInspectable public var optionFont: UIFont = .systemFont(ofSize: 15)
-  @IBInspectable public var leftInset: CGFloat = 0
-  @IBInspectable public var rightInset: CGFloat = 0
-  @IBInspectable public var topInset: CGFloat = 0
-  @IBInspectable public var bottomInset: CGFloat = 0
+  @IBInspectable public var titleText: String = "" { didSet { setNeedsLayout() }}
+  @IBInspectable public var optionText: String = "" { didSet { setNeedsLayout() }}
+  @IBInspectable public var titleColor: UIColor = .black { didSet { setNeedsLayout() }}
+  @IBInspectable public var optionColor: UIColor = .black { didSet { setNeedsLayout() }}
+  @IBInspectable public var titleFont: UIFont = .systemFont(ofSize: 13) { didSet { setNeedsLayout() }}
+  @IBInspectable public var optionFont: UIFont = .systemFont(ofSize: 15) { didSet { setNeedsLayout() }}
+  @IBInspectable public var leftInset: CGFloat = 0 { didSet { setNeedsLayout() }}
+  @IBInspectable public var rightInset: CGFloat = 0 { didSet { setNeedsLayout() }}
+  @IBInspectable public var topInset: CGFloat = 0 { didSet { setNeedsLayout() }}
+  @IBInspectable public var bottomInset: CGFloat = 0 { didSet { setNeedsLayout() }}
 
   // MARK: Init
 
